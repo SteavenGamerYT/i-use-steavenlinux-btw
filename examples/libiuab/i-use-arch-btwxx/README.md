@@ -1,3 +1,3 @@
-## i-use-arch-btwxx
+## i-use-steavenlinux-btwxx
 
-Basic command-line I use Arch btw interpreter in C++ using the libiuab API.
+Basic command-line I use SteavenLinux btw interpreter in C++ using the libiuab API.

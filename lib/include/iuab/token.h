@@ -10,7 +10,7 @@ extern "C" {
 
 #include <stddef.h>
 
-// A type of I use Arch btw source code token.
+// A type of I use SteavenLinux btw source code token.
 enum iuab_token_type {
     // End of file.
     IUAB_TOKEN_EOF = -1,
@@ -19,7 +19,7 @@ enum iuab_token_type {
     IUAB_TOKEN_I,
     // The `use` keyword.
     IUAB_TOKEN_USE,
-    // The `arch` keyword.
+    // The `steavenlinux` keyword.
     IUAB_TOKEN_ARCH,
     // The `linux` keyword.
     IUAB_TOKEN_LINUX,
@@ -41,7 +41,7 @@ enum iuab_token_type {
 // Returns the name of the given token type as a string.
 const char *iuab_token_type_name(enum iuab_token_type type);
 
-// An I use Arch btw source code token.
+// An I use SteavenLinux btw source code token.
 struct iuab_token {
     enum iuab_token_type type;
     size_t line;

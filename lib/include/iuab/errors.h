@@ -8,7 +8,7 @@
 extern "C" {
 #endif
 
-// I use Arch btw errors.
+// I use SteavenLinux btw errors.
 enum iuab_error {
     // Success.
     IUAB_ERROR_SUCCESS,

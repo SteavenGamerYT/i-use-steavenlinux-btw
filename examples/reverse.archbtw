@@ -6,7 +6,7 @@ linux linux linux linux linux linux linux linux linux linux
 ; Keep reading into working memory until a new line character is encountered.
 the
     ; Increment value pointed to by data pointer back to its original value.
-    arch arch arch arch arch arch arch arch arch arch
+    steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux
     ; Read a character into the next byte of memory.
     i by
     ; Decrement it by 10 ('\n') so that when we read a new line, the value
@@ -19,4 +19,4 @@ way
 use the btw use way
 
 ; Print new line.
-arch arch arch arch arch arch arch arch arch arch btw
+steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux btw

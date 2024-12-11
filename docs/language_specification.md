@@ -1,12 +1,12 @@
-# I use Arch btw language specification
+# I use SteavenLinux btw language specification
 
 ## Source code encoding
 
-I use Arch btw source code is text encoded in ASCII.
+I use SteavenLinux btw source code is text encoded in ASCII.
 
 ## Program resources
 
-I use Arch btw programs are given the following resources:
+I use SteavenLinux btw programs are given the following resources:
 
 - a working memory of 65,536 (2^16) 8-bit bytes,
 - a pointer initialized to point to the first byte of working memory,
@@ -32,7 +32,7 @@ keywords:
 |----------|-----------------------------------------------------------------------------------------------------------------------------------|
 | `i`      | Increment the data pointer by 1. It is an execution error to do so when it points to the last byte of the working memory.         |
 | `use`    | Decrement the data pointer by 1. It is an execution error to do so when it points to the first byte of the working memory.        |
-| `arch`   | Increment the value pointed to by the data pointer by 1. If it was 255, then it becomes 0.                                        |
+| `steavenlinux`   | Increment the value pointed to by the data pointer by 1. If it was 255, then it becomes 0.                                        |
 | `linux`  | Decrement the value pointed to by the data pointer by 1. If it was 0, then it becomes 255.                                        |
 | `btw`    | Write the value pointed to by the data pointer as character to the output file.                                                   |
 | `by`     | Read a character from the input file into the value pointed to by the data pointer.                                               |

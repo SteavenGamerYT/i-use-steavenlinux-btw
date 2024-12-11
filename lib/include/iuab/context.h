@@ -11,10 +11,10 @@ extern "C" {
 #include <stdint.h>
 #include <stdio.h>
 
-// The size of the working memory stored in an I use Arch btw program context.
+// The size of the working memory stored in an I use SteavenLinux btw program context.
 #define IUAB_CONTEXT_MEMORY_SIZE (1U << 16U)
 
-// An I use Arch btw program context.
+// An I use SteavenLinux btw program context.
 struct iuab_context {
     const uint8_t *ip;
     uint8_t *dp;

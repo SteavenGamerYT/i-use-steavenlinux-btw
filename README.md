@@ -1,19 +1,19 @@
-# I use Arch btw
+# I use SteavenLinux btw
 
-> "I use Arch btw" but it's a Turing-complete programming language.
+> "I use SteavenLinux btw" but it's a Turing-complete programming language.
 
 ## Introduction
 
-I use Arch btw is an esoteric programming language based on [Brainfuck](
+I use SteavenLinux btw is an esoteric programming language based on [Brainfuck](
 https://en.wikipedia.org/wiki/Brainfuck) in which the commands are the following
 keywords:
 
-`i`, `use`, `arch`, `linux`, `btw`, `by`, `the`, `way`, `gentoo`.
+`i`, `use`, `steavenlinux`, `linux`, `btw`, `by`, `the`, `way`, `gentoo`.
 
 See the [language specification](./docs/language_specification.md) for more
 information.
 
-This repository contains a [C/C++ library implementing I use Arch btw](./lib)
+This repository contains a [C/C++ library implementing I use SteavenLinux btw](./lib)
 and a dependent [command-line interpreter](./cmd).
 
 ## Getting Started
@@ -40,13 +40,13 @@ and a dependent [command-line interpreter](./cmd).
 
 #### Command-line interpreter
 
-    $ i-use-arch-btw <source file>
+    $ i-use-steavenlinux-btw <source file>
 
-Try some of the [example I use Arch btw programs](./examples) as source files.
+Try some of the [example I use SteavenLinux btw programs](./examples) as source files.
 
 For details:
 
-    $ i-use-arch-btw -h
+    $ i-use-steavenlinux-btw -h
 
 #### C/C++ library
 

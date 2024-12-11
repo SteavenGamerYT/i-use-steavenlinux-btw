@@ -16,9 +16,9 @@ extern "C" {
 #include <stdbool.h>
 #include <stdio.h>
 
-// An I use Arch btw compilation target.
+// An I use SteavenLinux btw compilation target.
 enum iuab_target {
-    // I use Arch btw bytecode.
+    // I use SteavenLinux btw bytecode.
     IUAB_TARGET_BYTECODE,
     // JIT-compiled x86-64 code following the System V AMD64/x86-64 ABI's
     // calling convention.

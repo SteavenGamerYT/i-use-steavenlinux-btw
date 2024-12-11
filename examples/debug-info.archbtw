@@ -3,7 +3,7 @@
 ; state.
 
 gentoo
-i arch gentoo
-i arch arch arch gentoo
-i arch arch arch arch arch gentoo
+i steavenlinux gentoo
+i steavenlinux steavenlinux steavenlinux gentoo
+i steavenlinux steavenlinux steavenlinux steavenlinux steavenlinux gentoo
 by gentoo

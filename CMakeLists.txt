@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 3.23)
 
-project(i-use-arch-btw VERSION 0.1.0)
+project(i-use-steavenlinux-btw VERSION 0.1.0)
 
 option(IUAB_BUILD_EXAMPLES "Build the libiuab example programs by default.")
 option(

@@ -12,7 +12,7 @@ extern "C" {
 
 #include <stdio.h>
 
-// An I use Arch btw source code lexer.
+// An I use SteavenLinux btw source code lexer.
 struct iuab_lexer {
     FILE *src;
     size_t line;

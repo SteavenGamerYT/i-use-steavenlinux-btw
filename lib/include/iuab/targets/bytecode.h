@@ -16,7 +16,7 @@ extern "C" {
 #include <stdint.h>
 #include <stdio.h>
 
-// I use Arch btw bytecode opcodes.
+// I use SteavenLinux btw bytecode opcodes.
 enum {
     // Return from the program.
     IUAB_BYTECODE_OP_RET,
@@ -46,10 +46,10 @@ enum {
     IUAB_BYTECODE_OP_DEBUG,
 };
 
-// Returns the name of the given I use Arch btw bytecode opcode as a string.
+// Returns the name of the given I use SteavenLinux btw bytecode opcode as a string.
 const char *iuab_bytecode_op_name(uint8_t op);
 
-// Compiles the source file pointed to by `src` into I use Arch btw bytecode to
+// Compiles the source file pointed to by `src` into I use SteavenLinux btw bytecode to
 // write to the buffer pointed to by `dst` and writes the last token
 // processed at the location pointed to by `last_token_dst`. Returns the error
 // that occurred in the process.
@@ -59,7 +59,7 @@ enum iuab_error iuab_compile_bytecode(
     struct iuab_token *last_token_dst
 );
 
-// Runs the I use Arch btw bytecode program from the context pointed to by
+// Runs the I use SteavenLinux btw bytecode program from the context pointed to by
 // `ctx`. Returns the error that occurred in the process.
 enum iuab_error iuab_run_bytecode(struct iuab_context *ctx);
 
